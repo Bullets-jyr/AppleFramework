@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		C8B381BF29458F2200BD6D26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B381BE29458F2200BD6D26 /* AppDelegate.swift */; };
 		C8B381C129458F2200BD6D26 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B381C029458F2200BD6D26 /* SceneDelegate.swift */; };
-		C8B381C329458F2200BD6D26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B381C229458F2200BD6D26 /* ViewController.swift */; };
 		C8B381C629458F2200BD6D26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8B381C429458F2200BD6D26 /* Main.storyboard */; };
 		C8B381C829458F2300BD6D26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8B381C729458F2300BD6D26 /* Assets.xcassets */; };
 		C8B381CB29458F2300BD6D26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8B381C929458F2300BD6D26 /* LaunchScreen.storyboard */; };
 		C8B381D629458F2300BD6D26 /* AppleFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B381D529458F2300BD6D26 /* AppleFrameworkTests.swift */; };
 		C8B381E029458F2300BD6D26 /* AppleFrameworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B381DF29458F2300BD6D26 /* AppleFrameworkUITests.swift */; };
 		C8B381E229458F2300BD6D26 /* AppleFrameworkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B381E129458F2300BD6D26 /* AppleFrameworkUITestsLaunchTests.swift */; };
+		C8B381EF29458F4F00BD6D26 /* FramewokData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B381EE29458F4F00BD6D26 /* FramewokData.swift */; };
+		C8B381F12945901400BD6D26 /* FramworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B381F02945901400BD6D26 /* FramworkViewController.swift */; };
+		C8B381F32945942D00BD6D26 /* FramworkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B381F22945942D00BD6D26 /* FramworkCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,6 @@
 		C8B381BB29458F2200BD6D26 /* AppleFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8B381BE29458F2200BD6D26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C8B381C029458F2200BD6D26 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C8B381C229458F2200BD6D26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C8B381C529458F2200BD6D26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C8B381C729458F2300BD6D26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8B381CA29458F2300BD6D26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,9 @@
 		C8B381DB29458F2300BD6D26 /* AppleFrameworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleFrameworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8B381DF29458F2300BD6D26 /* AppleFrameworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleFrameworkUITests.swift; sourceTree = "<group>"; };
 		C8B381E129458F2300BD6D26 /* AppleFrameworkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleFrameworkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C8B381EE29458F4F00BD6D26 /* FramewokData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FramewokData.swift; sourceTree = "<group>"; };
+		C8B381F02945901400BD6D26 /* FramworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FramworkViewController.swift; sourceTree = "<group>"; };
+		C8B381F22945942D00BD6D26 /* FramworkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FramworkCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +103,11 @@
 		C8B381BD29458F2200BD6D26 /* AppleFramework */ = {
 			isa = PBXGroup;
 			children = (
+				C8B381EE29458F4F00BD6D26 /* FramewokData.swift */,
 				C8B381BE29458F2200BD6D26 /* AppDelegate.swift */,
 				C8B381C029458F2200BD6D26 /* SceneDelegate.swift */,
-				C8B381C229458F2200BD6D26 /* ViewController.swift */,
+				C8B381F02945901400BD6D26 /* FramworkViewController.swift */,
+				C8B381F22945942D00BD6D26 /* FramworkCell.swift */,
 				C8B381C429458F2200BD6D26 /* Main.storyboard */,
 				C8B381C729458F2300BD6D26 /* Assets.xcassets */,
 				C8B381C929458F2300BD6D26 /* LaunchScreen.storyboard */,
@@ -258,9 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8B381C329458F2200BD6D26 /* ViewController.swift in Sources */,
 				C8B381BF29458F2200BD6D26 /* AppDelegate.swift in Sources */,
 				C8B381C129458F2200BD6D26 /* SceneDelegate.swift in Sources */,
+				C8B381EF29458F4F00BD6D26 /* FramewokData.swift in Sources */,
+				C8B381F32945942D00BD6D26 /* FramworkCell.swift in Sources */,
+				C8B381F12945901400BD6D26 /* FramworkViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
